@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" style="background: url(./bellybutton_microbes.jpg) no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" > 
+        <h1 style="color:white;">Belly Button Biodiversity Dashboard</h1>
+        <p style="color:white;">Use the interactive charts below to explore the dataset</p>
+      </div>
+      <div class="col-md-8">
+        <p>
+        Volunteers stepped forward to have the bacteria in their bellybuttons analyzed. This website contains a dashboard that explores the biodiversity in our bellybuttons, and it is interactive. By selecting the id number of the test subject in the dropdown list, information on the website is updated. Demographic information, including ethnicity, gender, age, and location can be found in a table below the dropdown list. The first chart is a bar chart of the Top 10 bacterial strains found in the subject's bellybutton and the second chart is a gauge showing that subjects bellybutton washing frequency. Finally, the last chart is a bubble chart showing the number of bacteria cultures per sample for the subject. Both the bar chart and the bubble chart will show additional information about the bacteria cultures when the mouse pointer hovers over the chart. Each chart updates as a new test subject is selected from the dropdown list.
+        </p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-8">
+        <div id="bar"></div>
+      </div>
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+
+</body>
+
+</html>
