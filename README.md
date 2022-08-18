@@ -11,18 +11,26 @@ The purpose of this challenge was to explore the importance of data visualizatio
 #### Approach
 The <buildCharts()> function containing the <sample> argument represents the sample that gets selected from the dropdown. The samples.json file is retrieved using the  d3.json.then() method and a variable is created that contains all the samples. The user chooses a sample from the dropdown list and Demographic Information, as well as the charts discussed further, are updated. The input box is shown below.
 
+  ![Sample Input Box](https://github.com/JeremyKRay/Bellybutton_Diversity_Challenge/blob/59b581214c9d9c87b7bb76547b94d0be445220db/Sample%20Input%20Box.png)
+  
 ### 2) Create the barchart
 #### Approach
 Plotly is used to create a barchart displaying The Top 10 Bacteria Cultures found. The chart is shown below.
 
+![Bar Chart](https://github.com/JeremyKRay/Bellybutton_Diversity_Challenge/blob/59b581214c9d9c87b7bb76547b94d0be445220db/Bar%20Chart.png)
+  
 ### 3) Create the bubble Chart
 #### Approach
 Plotly is used to create a bubble chart displaying the number of bacteria cultures found per sample. The chart is shown below.
 
+![Bubble Chart](https://github.com/JeremyKRay/Bellybutton_Diversity_Challenge/blob/59b581214c9d9c87b7bb76547b94d0be445220db/Bubble%20Chart.png)
+  
 ### 4) Create the Gauge Chart
 #### Approach
 Plotly is used to create a gauge chart displaying the belly button washing frequency of the sample subject. The chart is shown below.
 
+![Gauge Chart](https://github.com/JeremyKRay/Bellybutton_Diversity_Challenge/blob/59b581214c9d9c87b7bb76547b94d0be445220db/Gauge%20Chart.png)
+  
 ### 5) Customize the Dashboard
 #### Approach
 HTML and Bootstrap are used to customize the webage. This includes adding an image to the jumbotron, color changes, additional information as the user hovers over various charts, etc. Please follow the link below under the Results section to see the final webpage.
