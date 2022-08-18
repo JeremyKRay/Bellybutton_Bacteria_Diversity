@@ -9,7 +9,7 @@ The purpose of this challenge was to explore the importance of data visualizatio
 
 ### 1) Create the drop down menu so the user can choose samples based on sample id. 
 #### Approach
-The <buildCharts()> function containing the <sample> argument represents the sample that gets selected from the dropdown. The samples.json file is retrieved using the  d3.json.then() method and a variable is created that contains all the samples. The user chooses a sample from the dropdown list and Demographic Information, as well as the charts discussed further, are updated. The input box is shown below.
+The buildCharts() function containing the sample argument represents the sample that gets selected from the dropdown. The samples.json file is retrieved using the  d3.json.then() method and a variable is created that contains all the samples. The user chooses a sample from the dropdown list and Demographic Information, as well as the charts discussed further, are updated. The input box is shown below.
 
   ![Sample Input Box](https://github.com/JeremyKRay/Bellybutton_Diversity_Challenge/blob/59b581214c9d9c87b7bb76547b94d0be445220db/Sample%20Input%20Box.png)
   
