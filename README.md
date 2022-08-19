@@ -45,4 +45,4 @@ HTML and Bootstrap are used to customize the webage. This includes adding an ima
 The resulting webpage allows the user to select a test subject id number from a dropdown list and various data visualizations update based on the selected test subject. Demographic information including ethnicity, gender, location, etc are updated. In addition, a bar chart showing the Top 10 cultures found in that subject's bellybutton, a gauge chart showing the frequency of bellybutton washings, and a bubble chart showing the number of cultures per sample are all updated. Additional information about the bacteria cultures can also be displayed as the user hovers over the bar chart and bubble chart. 
 Please click the following link to access the interactive bellybutton biodiversity webpage. 
 
-[ https://jeremykray.github.io/Bellybutton_Diversity_Challenge/](https://jeremykray.github.io/Bellybutton_Diversity_Challenge/)
+[Bellybutton Bacteria Diversity](https://jeremykray.github.io/Bellybutton_Bacteria_Diversity/)
