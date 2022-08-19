@@ -3,6 +3,12 @@ Module 12 Challenge
 ## Overview
 The purpose of this challenge was to explore the importance of data visualization to data analysists in communicating findings and conclusions. Although the topic is a bit strange, the outcome is a clear demonstration of the power these tools hold for data visualization. JavaScript is used to create attractive, accessible and interactive data visualizations. The JavaScript data visualization library Plotly.js is used to provide the interactivity needed to increase the user's comprehension of the data, drawing the same conclusions as the data analyst. To demonstrate this, a website was created that offers interactive analysis of a dataset containing information on the biodiversity of bacteria strains found in the human belly button. The hypothesis is that there might be a bacterial strain found in the belly button that can synthesize the proteins necessary to make improbable beef grown in a lab taste like real beef.  
 
+## Technology Used
+
+![download](https://user-images.githubusercontent.com/98500639/185666138-c4f0147e-ff29-45dd-aa57-bab9680d6f87.jpg)
+![download](https://user-images.githubusercontent.com/98500639/185666192-e8458a1f-6a7f-4136-bb25-793d9735f432.jpg)
+![download](https://user-images.githubusercontent.com/98500639/185666212-cb455389-a605-4a3f-b05b-44e676aa3489.png)
+
 ## Tasks
 
 5 main tasks were required to complete the website.
